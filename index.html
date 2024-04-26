@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio | Malemna Swari Tarigan</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" href="src/img/logo_mst.png" type="image/x-icon" />
+    <link href="src/style.css" rel="stylesheet">
+</head>
+
+
+<body class="font-nunito">
+    <div
+        class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-8" src="src/img/logo_mst.png" alt="" />
+                    <span class="text-2xl font-bold text-indigo-900 dark:text-white">My Blog</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase">
+                    <li class="hover:text-gray-500">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#about">About me</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#portofolio">Portofolio</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <img id="moon" src="src/img/moon.png" class="hidden md:block w-5 cursor-pointer" alt="" />
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu"
+                    class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <li>
+                        <a id="hLink" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="#portofolio">Portofolio</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <!-- Img -->
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="src/img/swari.jpg1.png"
+            alt="" />
+
+        <!-- circle -->
+        <div
+            class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10">
+        </div>
+
+        <!-- animasi text -->
+        <div
+            class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+            <span class="text-gray-600">Interested In</span>
+            <p id="text" class="text-red-500"></p>
+        </div>
+        <!-- texts -->
+        <div
+            class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3">
+            <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Malemna Swari Tarigan</h1>
+            <p class="text-gray-400">
+                Mahasiswa semester 4 Manajemen Informatika Jurusan Teknologi Informasi, Politeknik Negeri Jember.
+                Memiliki minat yang besar dalam desain dan gemar mengabadikan momen dengan potret. salam hangat😊
+            </p>
+            <a class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit" href="#contact">Hubungi
+                saya</a>
+        </div>
+    </div>
+
+    <!-- About Start-->
+    <div id="about" class="px-10 dark:bg-slate-900">
+        <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
+
+            <!-- left -->
+            <div class="relative">
+                <img class="h-1/4 absolute top-0 left-0 -z-10" src="src/img/dots.png" alt="" />
+                <div class="h-full rounded-full overflow-hidden">
+                    <img src="src/img/swari.jpg4.png" alt="" />
+                </div>
+            </div>
+            <!-- right -->
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-indigo-600 font-bold">About Me</h1>
+                <h1 class="text-3xl font-medium dark:text-white">Experiences & skill</h1>
+                <p class="text-gray-400">
+                    Saya pernah mengikuti pelatihan Junior Graphic Designer VSGA 2023 meningkatkan kemampuan desain
+                    saya, selain itu pembelajaran dan latihan desain Website
+                    yang dipelajari dikampus mengembangkan kemampuan dan pengalaman saya.
+                </p>
+                <h2 class="text-gray-400 font-medium">HTML</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium">CSS</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium">JavaScript</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium">Figma</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium">Corel</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services Start-->
+    <div id="services" class="dark:bg-slate-900">
+        <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold">Services</h1>
+                <h1 class="text-3xl dark:text-white">What do I offer?</h1>
+            </div>
+
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+                <!-- card -->
+                <div class="w-full md:w-6/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 items-center">
+                    <img class="w-10" src="src/img/uiux.png" alt="" />
+                    <h1 class="font-medium text-lg dark:text-white">UX / UI Design</h1>
+                    <p class="text-gray-400">
+                        Memiliki beberapa pengalaman dalam desain situs web untuk membuat situs web yang memperkuat
+                        merek perusahaan Anda sekaligus memastikan kemudahan penggunaan dan kesederhanaan bagi audiens
+                        Anda.Memberikan pelayanan yang terbaik.
+                    </p>
+                </div>
+                <!-- card -->
+                <div class="w-full md:w-6/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 items-center">
+                    <img class="w-10" src="src/img/webdev.png" alt="" />
+                    <h1 class="font-medium text-lg dark:text-white">Web Development</h1>
+                    <p class="text-gray-400">
+                        Pengalaman yang telah saya peroleh di perkuliahan dan pelatihan yang pernah saya ikuti, dapat
+                        membantu anda mendevelop atau membangun sebuah website yang interaktif dan dapat mempermudah
+                        anda dalam pengoperasiannya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portofolio Start -->
+    <div id="portofolio" class="py-40 dark:bg-slate-900">
+        <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold">PORTFOLIO</h1>
+                <h1 class="text-3xl dark:text-white">Projects</h1>
+                <p class="text-center text-gray-400">
+                    Saya menyelesaikan tugas project perkuliahan dan project latihan yang menghasilkan situs web.
+                    Didukung
+                    oleh Figma, VSCode saya mengubah tampilan menjadi situs web.
+                </p>
+            </div>
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+                <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+                    <!-- card -->
+                    <div
+                        class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+                        <img src="src/img/portofolioku.png" />
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Website Portofolio</h4>
+                            <a
+                                href="https://malemnaswaritarigan.github.io/malemnaswaritarigan.github.io.git-portofolio/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z" />
+                                    <path
+                                        d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+                        <img src="src/img/tobaku.png" />
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Company Profile ToBaKu</h4>
+                            <a
+                                href="https://malemnaswaritarigan.github.io/malemnaswaritarigan.github.io-Companyprofile_TOBAKU/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z" />
+                                    <path
+                                        d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+                        <img src="src/img/webcv.png" />
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Desain Web CV</h4>
+                            <a href="https://malemnaswaritarigan.github.io/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z" />
+                                    <path
+                                        d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+                        <img src="src/img/ecommerce.png" />
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Ecommerce ToBaKu</h4>
+                            <a href="https://tomass.mifb.myhost.id/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z" />
+                                    <path
+                                        d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact Start-->
+    <div id="contact" class="dark:bg-slate-900">
+        <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+                <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+                <p class="w-1/2 text-center text-gray-400">
+                    Jika Anda punya pertanyaan atau ide Mari kita diskusikan bersama.
+                </p>
+            </div>
+            <!-- bottom -->
+            <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+                <input
+                    class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+                    type="text" placeholder="Name Surname" />
+                <input
+                    class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+                    type="email" placeholder="Email" />
+                <textarea
+                    class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+                    cols="30" rows="10" placeholder="Message..."></textarea>
+                <button class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer Start-->
+    <div class="w-full bg-gray-800">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+
+            <span class="hidden md:block font-medium text-white text-center w-full">© 2024. Design By Malemna Swari
+                Tarigan💙</span>
+            <div class="flex gap-2">
+                <a href="https://wa.me/qr/4HSZNNMABIHVL1"><img class="w-6 h-6" src="src/img/phone call.svg" alt=""></a>
+                <a href="https://www.instagram.com/swa_yoe?igsh=MWo1cncyNnduajJvYg=="><img class="w-6 h-6"
+                        src="src/img/Instagram.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/malemna-swari-tarigan-b3a77124a/"><img class="w-6 h-6"
+                        src="src/img/Linkedin.svg" alt=""></a>
+                <a href=" https://github.com/malemnaswaritarigan"><img class="w-6 h-6" src="src/img/Github.svg"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script src="src/app.js"></script>
+    <script src="src/autotyping.js"></script>
+</body>
+
+</html>
